@@ -23,9 +23,10 @@ def assign_rooms (attendees)
     room_assignments.push("Hello, #{"attendee"}! You'll be assigned to room #{i}!")
     i++
   end
+end
 
-  
-  
+
+
 
 
 
