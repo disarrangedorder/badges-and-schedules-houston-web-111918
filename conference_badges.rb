@@ -21,5 +21,5 @@ end
 
 
 
-def assign rooms (speakers, room)
+#def assign rooms (speakers, room)
   
