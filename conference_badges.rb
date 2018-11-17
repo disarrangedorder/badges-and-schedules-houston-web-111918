@@ -30,7 +30,8 @@ end
 
 def conference_badges
 
-  batch_badge_creator
-  assign_rooms
+
+  print batch_badge_creator
+  print assign_rooms
 
 end
