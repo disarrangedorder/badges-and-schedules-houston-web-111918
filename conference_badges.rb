@@ -22,18 +22,13 @@ def assign_rooms (attendees)
   attendees.each do |attendee|
     i += 1
     room_assignments << "Hello, #{attendee}! You'll be assigned to room #{i}!"
-
   end
   return room_assignments
+
 end
 
 
-
-
-
-
-
-
-
-
-#def assign rooms (speakers, room)
+def conference_badges
+  batch_badge_creator
+  assign_rooms
+end
