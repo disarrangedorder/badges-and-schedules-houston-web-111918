@@ -7,13 +7,13 @@ def badge_maker (name)
 end
 
 def batch_badge_creator (name_list)
-  
+
   batch_badges = []
 
   name_list.each do |name|
     batch_badges.push(badge_maker)
   end
-  
+
 end
 
 
