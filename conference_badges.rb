@@ -23,7 +23,7 @@ def assign_rooms (attendees)
     room_assignments << "Hello, " + attendee + "! You'll be assigned to room #{i}!"
     i++
   end
-
+  return room_assignments
 end
 
 
