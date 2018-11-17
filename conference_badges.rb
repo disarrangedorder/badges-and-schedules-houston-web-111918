@@ -29,6 +29,8 @@ end
 
 
 def conference_badges
+
   batch_badge_creator
   assign_rooms
+
 end
